@@ -3,3 +3,47 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* Center the header text */
+header h1 {
+  text-align: center;
+}
+
+/* Center the featured image */
+#featured-property figure {
+  text-align: center;
+}
+
+/* Style the navigation links */
+header nav {
+  text-align: center;
+}
+header nav a {
+  padding: 10px;
+  background-color: grey;
+}
+
+/* Style the image caption */
+#featured-property figcaption {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Center the text block and give it a width */
+#featured-property p {
+  text-align: center;
+  width: 800px;
+  margin: 20px auto;
+}
+
+/* Make the #details section horizontal */
+#details div {
+  float: left;
+}
+
+/* Style the divs at the bottom */
+#details div {
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
